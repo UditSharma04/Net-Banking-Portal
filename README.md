@@ -4,6 +4,37 @@ Bank Login Portal
 
 The Bank Login Portal project is a web application that provides a secure and user-friendly interface for customers to log in to their bank accounts. It is designed to enhance security and streamline the login process, ensuring a seamless banking experience for users.
 
+To test out my project, what you need to know:-
+1- Preloaded sample data for testing
+sample - 1
+    First name -"Udit"
+    Last name-"Sharma"
+    State-"Rajasthan"
+    District-"Sawai Madhopur"
+    City-"Sawai Madhopur"
+    Password-"12345"
+    Gmail-"example@gmail.com"
+    Aadhar no-"123456781234"
+    Phone no-"0000000000"
+    Account Balance-10000
+sample - 2
+    First name -"Viraj"
+    Last name-"Pradhan"
+    State-"Maharashtra"
+    District-""Mumbai"
+    City-"Dombivili"
+    Password-"54321"
+    Gmail-"viraj@gmail.com"
+    Aadhar no-"000000000000"
+    Phone no-"1234567890"
+    Account Balance-20000
+    
+2- Default OTP : 0000
+   Default Gmail Verification code : 1234
+   Default Payment Verification code : 1111
+
+
+
 This is the code for my project
 
 #include <iostream>
