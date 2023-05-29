@@ -321,6 +321,7 @@ int main()
         }
         while(true){
         cout<<endl<<"What would you like to do , "<<tUsername_1<<"?"<<endl
+        <<"0 - Profile"<<endl
         <<"1 - Check Balance"<<endl
         <<"2 - Update Password"<<endl
         <<"3 - Transfer money"<<endl
@@ -329,6 +330,18 @@ int main()
         string temp_comm;
         cin>>temp_comm;
         if(temp_comm=="4"){break;}
+
+        else if(temp_comm=="0")
+        {
+          cout<< "First name - "<<i[x].firstName<<endl
+              << "Last name - "<<i[x].lastName<<endl
+              << "State - "<<i[x].adress_state<<endl
+              << "District - "<<i[x].adress_district<<endl
+              << "City - "<<i[x].adress_city<<endl
+              << "Gmail - "<<i[x].Gmail<<endl
+              <<"Aadhar no - "<<i[x].aadharNo<<endl
+              <<"Phone no - "<<i[x].phoneNo<<endl;
+        }
 
         else if(temp_comm=="1")
         {
