@@ -4,6 +4,15 @@ Bank Login Portal
 
 The Bank Login Portal project is a web application that provides a secure and user-friendly interface for customers to log in to their bank accounts. It is designed to enhance security and streamline the login process, ensuring a seamless banking experience for users.
 
+
+The code I provided is a C++ program for a Bank Login Portal. It allows users to create a new account, access existing accounts, check balance, update passwords, transfer money, and perform other related actions.
+
+The code defines a class called "info" to store information about bank account holders. It includes member variables such as first name, last name, Aadhaar number, address details, phone number, password, Gmail address, and account balance.
+
+The program uses various functions to validate user input, such as Aadhaar number, phone number, and Gmail address. It ensures that the input meets certain criteria before proceeding with the account creation or login process.
+
+To test the code, you can run it and interact with the program using the provided sample data. The program will simulate the bank login portal, allowing you to create a new account or access an existing account based on the options you choose.
+
 To test out my project, what you need to know:-
 1- Preloaded sample data for testing
 sample - 1
@@ -124,8 +133,8 @@ int main()
   */
 
   info i[100];
-  i[0].getData("Udit","Sharma","Rajasthan","Sawai Madhopur","Sawai Madhopur","12345","example@gmail.com","123456781234","0000000000",10000);
-  i[1].getData("Viraj","Pradhan","Maharashtra","Mumbai","Dombivili","54321","viraj@gmail.com","000000000000","1234567890",20000);
+  i[0].getData("Udit","Sharma","Rajasthan","Sawai Madhopur","Sawai Madhopur","12345","example@gmail.com","123456781234","0000000000",100000);
+  i[1].getData("Viraj","Pradhan","Maharashtra","Mumbai","Dombivli","54321","viraj@gmail.com","000000000000","1234567890",200000);
 
 
   string tempName1,tempName2;
@@ -161,7 +170,7 @@ int main()
         getline(cin >> first_name1,first_name2);
         
         cout<<endl<<"Enter your second name: ";
-        getline(cin >> first_name1,first_name2);
+        getline(cin >> last_name1,last_name2);
         
 
         while(true){
