@@ -85,8 +85,8 @@ int main()
   */
 
   info i[100];
-  i[0].getData("Udit","Sharma","Rajasthan","Sawai Madhopur","Sawai Madhopur","12345","example@gmail.com","123456781234","0000000000",10000);
-  i[1].getData("Viraj","Pradhan","Maharashtra","Mumbai","Dombivili","54321","viraj@gmail.com","000000000000","1234567890",20000);
+  i[0].getData("Udit","Sharma","Rajasthan","Sawai Madhopur","Sawai Madhopur","12345","example@gmail.com","123456781234","0000000000",100000);
+  i[1].getData("Viraj","Pradhan","Maharashtra","Mumbai","Dombivli","54321","viraj@gmail.com","000000000000","1234567890",200000);
 
 
   string tempName1,tempName2;
@@ -122,7 +122,7 @@ int main()
         getline(cin >> first_name1,first_name2);
         
         cout<<endl<<"Enter your second name: ";
-        getline(cin >> first_name1,first_name2);
+        getline(cin >> last_name1,last_name2);
         
 
         while(true){
