@@ -1,4 +1,4 @@
-# CSE_project
+# Net Banking Portal (CSE Project)
 Bank Login Portal
 
 
