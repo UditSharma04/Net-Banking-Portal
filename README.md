@@ -1,4 +1,4 @@
-# Net Banking Portal (CSE Project)
+# Net Banking Portal (C.S.E Project)
 Bank Login Portal
 
 Question - Write a C++ program using classes , funcitons and loops to create a digital Banking Portal in which user can make a new account and access an existing account based on the predefined data values. Program must run until the user asks to stop it. Program should have basic inputs like name , adress , phone no , aadhar no , mail adress etc.
