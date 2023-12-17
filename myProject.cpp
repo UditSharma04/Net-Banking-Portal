@@ -142,10 +142,10 @@ int main()
         cout<<endl<<"Enter you State:";
         getline(cin >> State1, State2);
 
-        cout<<endl<<"Enter you District:";
+        cout<<endl<<"Enter you District (without spaces):";
         getline(cin >> District1, District2);
         
-        cout<<endl<<"Enter you City:";
+        cout<<endl<<"Enter you City (without spaces):";
         getline(cin >> City1, City2);
         
 
